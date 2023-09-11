@@ -513,7 +513,7 @@ img {
     fill: transparent;
 }
 
-input[type='checkbox']:checked + .modal-form-privacy-label .modal-form-privacy-desc .modal-form-checkbox-icon {
+input[type='checkbox']:checked + .modal-form-privacy-label > .modal-form-privacy-desc {
     background-color: var(--ocaen-cl);
     border: none;
     fill: var(--cloud-cl)
